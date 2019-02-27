@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+</head>
+<body>
+<div class="container">
+<div class="inner_conatiner">
+	<div class="form_container">
+<h3> register</h3>
+<h6> Create your account its free and it takes only a minute</h6>	
+<form>
+  <input type="text" name="firstname" placeholder="firstname">
+  <input type="text" name="lastname" placeholder="lastname"><br>
+  <input type="email" name="email" placeholder="email"><br>
+  <input type="password" name="password" placeholder="password"><br> 
+  <input type="password" name="password" placeholder ="Confirm Password"><br><br>
+  <input type="checkbox" name="checkbox" >
+  <label for="checkbox"> I agree to all the <a href=""> term of use</a> and <a href="">pricacy policy</a></label>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+</div>
+</div>	
+</div>
+<style>
+.container
+{
+	width:50%;
+    margin-left:25%;
+	margin-top: 20px;
+    
+
+}
+.container > .inner_conatiner 
+{
+	width:50%;
+	border:40px solid grey;
+	justify-content: center;
+    margin:10% auto;
+    background-color: silver;
+}
+.form_container
+{
+	margin-top:3px; 
+	margin-left:5px;
+	margin-bottom:6px;
+	margin-right:5px;
+}
+ h3
+
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h3:before,
+h3:after 
+{
+    content: '';
+    border-top: 2px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+h3:after 
+{
+    margin: 0 0 0 20px;
+}
+h6
+{
+	text-align: center;
+     
+}
+input[type=submit]
+{
+		background-color: green;
+		color:white;
+		font-weight: bold;
+		text-transform: uppercase;
+		width:99%;
+		padding: 4px;
+
+
+}
+input[type=text]
+{
+	width:40%;
+    display: inline-block;
+}
+input
+{
+	border-radius:0;
+	padding:5px;
+	margin: 3px;
+}
+a
+{
+	text-decoration: none;
+}
+label
+{
+	font-size: 12px;
+}
+</style>
+</body>
+</html>
